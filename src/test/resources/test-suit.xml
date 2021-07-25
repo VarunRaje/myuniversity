@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Student service unit tests" preserve-order="true">
+
+    <listeners>
+        <listener class-name="com.myuniversity.MyUniversityApplicationTests"/>
+    </listeners>
+
+    <test name="Student Controller Tests" enabled="true" parallel="false">
+        <classes>
+            <class name="com.myuniversity.MyUniversityApplicationTests"></class>
+            <class name="com.myuniversity.MyUnniversityDataProvider"></class>
+
+        </classes>
+    </test>
+</suite>
