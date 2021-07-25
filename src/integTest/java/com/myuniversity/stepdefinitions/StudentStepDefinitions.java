@@ -73,7 +73,7 @@ public class StudentStepDefinitions {
     public void studentAddedSuccessfully(){
         LOG.info("Checking if user added Successfully");
         List<StudentDao> studentDaoList = this.studentRepository.findAll();
-        Assert.assertEquals(studentDaoList.size(), 1);
+        Assert.assertEquals(studentDaoList.size(), 2);
 
     }
 
