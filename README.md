@@ -9,6 +9,14 @@ This Application have below parts.
 4. Integration Test case with Cucumber and BDD approch
 5. Unit test cases with Mockito and JUnit.
 
+Prerequisite
+=================
+
+1. Java 11 or highter version
+2. Docker
+3. Gradle (Dependency Management)
+4. Any IDE with Cucumber support.
+
 
 Table of contents
 =================
